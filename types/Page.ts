@@ -1,7 +1,8 @@
+import { ReactNode } from "react"
 import { PortableTextBlock } from "sanity"
 
 export type Page = {
-    title: ReactNode
+    title: ReactNode,
     _id: string,
     _createdAt: Date,
     name: string,
